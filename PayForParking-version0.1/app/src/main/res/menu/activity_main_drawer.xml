@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/parking"
+            android:icon="@drawable/login"
+            android:title="ယာဥ္အပ္ႏွံရန္" />
+
+        <item
+            android:id="@+id/SearchBike"
+            android:icon="@drawable/restrict"
+            android:title="ဆိုင္ကယ္ျပန္ေရြးရန္" />
+        <item
+            android:id="@+id/SearchCar"
+            android:icon="@drawable/restrict"
+            android:title="ကားျပန္ေရြးရန္" />
+        <item
+            android:id="@+id/payment"
+            android:icon="@drawable/money"
+            android:title="သင့္ေငြေပးရန္" />
+        <item
+            android:id="@+id/monthlypayment"
+            android:icon="@drawable/money"
+            android:title="ေန႔စဥ္ေငြတြက္ခ်က္ရန္" />
+
+    </group>
+
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/logout"
+                android:title="ထြက္ရန္" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/manager"
+                android:title="About Us" />
+        </menu>
+    </item>
+
+</menu>

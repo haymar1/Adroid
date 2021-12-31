@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="15sp"
+    android:paddingRight="15sp"
+    android:paddingTop="15sp"
+    android:paddingBottom="15sp"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Welcome!"
+        android:id="@+id/textwelcome"
+        android:textSize="30dp"
+        android:layout_gravity="center"
+        android:textStyle="italic"/>
+
+
+    <EditText
+        android:id="@+id/editText_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="100"
+        android:hint="အမည္"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/buttoncolor" />
+
+
+
+    <EditText
+        android:id="@+id/editText_plate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="100"
+        android:textAlignment="center"
+        android:hint="ယာဥ္နံပါတ္"
+        android:inputType="textPersonName"
+        android:background="@drawable/buttoncolor"
+        android:layout_marginTop="20dp"/>
+
+
+    <EditText
+        android:id="@+id/edtcolor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="100"
+        android:textAlignment="center"
+        android:hint="အေရာင္"
+        android:inputType="textPersonName"
+        android:background="@drawable/buttoncolor"
+        android:layout_marginTop="20dp"/>
+
+    android:layout_height="wrap_content" >
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioGroup">
+        <RadioButton
+            android:id="@+id/radioCar"
+            android:layout_width="208dp"
+            android:layout_height="wrap_content"
+            android:text="ကား"
+            android:checked="true" />
+
+        <RadioButton
+            android:id="@+id/radioBike"
+            android:layout_width="628dp"
+            android:layout_height="wrap_content"
+
+            android:text="ဆိုင္ကယ္" />
+    </RadioGroup>
+
+
+    <Button
+        android:id="@+id/go"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="အပ္ရန္"
+        android:layout_gravity="center"
+        android:layout_marginTop="0dp"
+        android:textStyle="italic"
+        android:textSize="20dp"
+        android:background="@drawable/buttoncolor" />
+
+
+</LinearLayout>

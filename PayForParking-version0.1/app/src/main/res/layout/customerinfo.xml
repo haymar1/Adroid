@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/customerLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout android:id="@+id/relativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView android:id="@+id/tid"
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            style="@android:style/TextAppearance.Medium"
+            android:paddingRight="5sp"/>
+
+        <TextView android:id="@+id/tname"
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:layout_below="@id/tid"
+            style="@android:style/TextAppearance.Medium"
+            android:paddingRight="5sp"/>
+        <TextView android:id="@+id/tplateno"
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:layout_below="@id/tname"
+            android:layout_marginTop="10dp"
+            style="@android:style/TextAppearance.Small" />
+        <TextView android:id="@+id/tcolor"
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:layout_below="@id/tplateno"
+            android:layout_marginTop="10dp"
+            style="@android:style/TextAppearance.Small" />
+        <TextView android:id="@+id/tdate"
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/tcolor"
+            style="@android:style/TextAppearance.Medium"
+            android:paddingRight="5sp"/>
+        <TextView android:id="@+id/ttime"
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:layout_below="@id/tdate"
+            android:layout_marginTop="10dp"
+            style="@android:style/TextAppearance.Small" />
+        <TextView android:id="@+id/tflage"
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:layout_below="@id/ttime"
+            android:layout_marginTop="10dp"
+            style="@android:style/TextAppearance.Small" />
+
+        <TextView android:id="@+id/tradio"
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:layout_below="@id/tflage"
+            android:layout_marginTop="10dp"
+            style="@android:style/TextAppearance.Small" />
+
+
+
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item_detail_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/background">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ေန႕စဥ္၀င္ေငြ"
+        android:id="@+id/tv_title"
+        android:textSize="25dp"
+        android:layout_gravity="center_horizontal" />
+
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:id="@+id/CalradioGroup">
+        <RadioButton
+            android:id="@+id/CalCar"
+            android:layout_width="208dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="ကား"
+            android:checked="true" />
+
+        <RadioButton
+            android:id="@+id/CalBike"
+            android:layout_width="628dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="ဆိုင္ကယ္" />
+    </RadioGroup>
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <EditText
+            android:id="@+id/TxtDate"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/Date"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+
+        <Button
+            android:id="@+id/bt_Date"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:text="ရက္စြဲ"
+            android:textSize="20dp"
+            android:background="@drawable/buttoncolor"/>
+    </android.support.v7.widget.LinearLayoutCompat>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="တြက္ခ်က္ရန္"
+        android:id="@+id/bt_Show"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/buttoncolor"/>
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:id="@+id/tv_result"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_centerInParent="true" />
+    </RelativeLayout>
+
+</LinearLayout>
