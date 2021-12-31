@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ucst.philantropic"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="21" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="Philanthropic"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="Philanthropic" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Second"
+            android:label="Philanthropic"
+             >
+        </activity>
+        <activity
+            android:name=".Third"
+            android:label="Philanthropic"
+            android:parentActivityName=".Second" >
+        </activity>
+        <activity
+            android:name=".NursingHome"
+            android:label="Philanthropic"
+            android:parentActivityName=".Third" >
+        </activity>
+        <activity
+            android:name=".Orphange"
+            android:label="Philanthropic"
+            android:parentActivityName=".NursingHome" >
+        </activity>
+        <activity
+            android:name=".DisabilitySchool"
+            android:label="Philanthropic"
+            android:parentActivityName=".Orphange" >
+        </activity>
+        <activity
+            android:name=".ThuNgeDaw_Disability"
+            android:label="Philanthropic"
+            android:parentActivityName=".Orphange" >
+        </activity>
+        <activity
+            android:name=".ShanYoeMa"
+            android:label="Philanthropic"
+            android:parentActivityName=".NursingHome" >
+        </activity>
+        <activity
+            android:name=".HamSee_Orphange"
+            android:label="Philanthropic"
+            android:parentActivityName=".Orphange" >
+        </activity>
+        <activity
+            android:name=".NyeinChan_Orphange"
+            android:label="Philanthropic"
+            android:parentActivityName=".Orphange" >
+        </activity>
+        <activity
+            android:name=".PyinNyaOoYin_Orphange"
+            android:label="Philanthropic"
+            android:parentActivityName=".Orphange" >
+        </activity>
+        <activity
+            android:name=".Laday_Orphange"
+            android:label="Philanthropic"
+            android:parentActivityName=".Orphange" >
+        </activity>
+        <activity
+            android:name=".Damawidu_Orphange"
+            android:label="Philanthropic"
+            android:parentActivityName=".Orphange" >
+        </activity>
+        <activity
+            android:name=".AyeTharYar"
+            android:label="Philanthropic"
+            android:parentActivityName=".MainActivity" >
+        </activity>
+        <activity
+            android:name=".AyeTharYar_Orphange"
+            android:label="Philanthropic"
+            android:parentActivityName=".AyeTharYar" >
+        </activity>
+        <activity
+            android:name=".YanTieAung_Orphange"
+            android:label="Philanthropic"
+            android:parentActivityName=".AyeTharYar_Orphange" >
+        </activity>
+        <activity
+            android:name=".Hopong"
+            android:label="Philanthropic"
+            android:parentActivityName=".MainActivity" >
+        </activity>
+        <activity
+            android:name=".Hopong_Orphanage"
+            android:label="Philanthropic"
+            android:parentActivityName=".Hopong" >
+        </activity>
+        <activity
+            android:name=".NaungTaung"
+            android:label="Philanthropic"
+            android:parentActivityName=".Hopong_Orphanage" >
+        </activity>
+        <activity
+            android:name=".NyaunShwe"
+            android:label="Philanthropic"
+            android:parentActivityName=".MainActivity" >
+        </activity>
+        <activity
+            android:name=".NyaungShwe_Orphanage"
+            android:label="Philanthropic"
+            android:parentActivityName=".NyaunShwe" >
+        </activity>
+        <activity
+            android:name=".SattTaThuKha_Orphanage"
+            android:label="Philanthropic"
+            android:parentActivityName=".AyeTharYar_Orphange" >
+        </activity>
+        <activity
+            android:name=".MineThote"
+            android:label="Philanthropic"
+            android:parentActivityName=".NyaungShwe_Orphanage" >
+        </activity>
+        <activity
+            android:name=".PinTaYa"
+            android:label="Philanthropic"
+            android:parentActivityName=".MainActivity" >
+        </activity>
+        <activity
+            android:name=".PinTaYa_NursingHome"
+            android:label="Philanthropic"
+            android:parentActivityName=".PinTaYa" >
+        </activity>
+        <activity
+            android:name=".Danu_NursingHome"
+            android:label="Philanthropic"
+            android:parentActivityName=".PinTaYa_NursingHome" >
+        </activity>
+        <activity
+            android:name=".AungBang"
+            android:label="Philanthropic"
+            android:parentActivityName=".MainActivity" >
+        </activity>
+        <activity
+            android:name=".AungBang_Orphanage"
+            android:label="Philanthropic"
+            android:parentActivityName=".AungBang" >
+        </activity>
+        <activity
+            android:name=".Pyitsamayone_Orphanage"
+            android:label="Philanthropic"
+            android:parentActivityName=".AungBang_Orphanage" >
+        </activity>
+        <activity
+            android:name=".PheKon"
+            android:label="Philanthropic"
+            android:parentActivityName=".MainActivity" >
+        </activity>
+        <activity
+            android:name=".PheKon_Orphanage"
+            android:label="Philanthropic"
+            android:parentActivityName=".PheKon" >
+        </activity>
+        <activity
+            android:name=".NatTaw_Orphanage"
+            android:label="Philanthropic"
+            android:parentActivityName=".PheKon_Orphanage" >
+        </activity>
+        <activity
+            android:name=".ThanTarTaYayNa_Orphanage"
+            android:label="Philanthropic"
+            android:parentActivityName=".PheKon_Orphanage" >
+        </activity>
+        <activity
+            android:name=".SaiKhunTaung_Orphanage"
+            android:label="Philanthropic"
+            android:parentActivityName=".PheKon_Orphanage" >
+        </activity>
+        <activity
+            android:name=".PinLong"
+            android:label="Philanthropic"
+            android:parentActivityName=".MainActivity" >
+        </activity>
+        <activity
+            android:name=".PinLong_Orphanage"
+            android:label="Philanthropic"
+            android:parentActivityName=".PinLong" >
+        </activity>
+        <activity
+            android:name=".Tinarkaung_Orphanage"
+            android:label="Philanthropic"
+            android:parentActivityName=".PinLong_Orphanage" >
+        </activity>
+        <activity
+            android:name=".Nanghuu_Orphanage"
+            android:label="Philanthropic"
+            android:parentActivityName=".PinLong_Orphanage" >
+        </activity>
+        <activity
+            android:name=".YatSauk"
+            android:label="Philanthropic"
+            android:parentActivityName=".MainActivity" >
+        </activity>
+        <activity
+            android:name=".YatSauk_Orphanage"
+            android:label="Philanthropic"
+            android:parentActivityName=".YatSauk" >
+        </activity>
+        <activity
+            android:name=".Thuekhakaryee_Orphanage"
+            android:label="Philanthropic"
+            android:parentActivityName=".YatSauk_Orphanage" >
+        </activity>
+        <activity
+            android:name=".LinKay"
+            android:label="Philanthropic"
+            android:parentActivityName=".MainActivity" >
+        </activity>
+        <activity
+            android:name=".LinKay_Orphanage"
+            android:label="Philanthropic"
+            android:parentActivityName=".LinKay" >
+        </activity>
+        <activity
+            android:name=".MaKyineMonn_Orphanage"
+            android:label="Philanthropic"
+            android:parentActivityName=".LinKay_Orphanage" >
+        </activity>
+        <activity
+            android:name=".Opendoor"
+            android:label="Philanthropic"
+            android:parentActivityName=".AyeTharYar_Orphange" >
+        </activity>
+        
+        <activity
+            android:name=".SattThaThuKa"
+            android:label="Philanthropic"
+            android:parentActivityName=".AyeTharYar_Orphange" >
+        </activity>
+        <activity
+            android:name=".SanLaPaMar"
+            android:label="Philanthropic"
+            android:parentActivityName=".AyeTharYar_Orphange" >
+        </activity>
+        <activity
+            android:name=".Tinarkaung"
+            android:label="Philanthropic"
+            android:parentActivityName=".PinLong_Orphanage" >
+        </activity>
+        <activity
+            android:name=".Nanghuu"
+            android:label="Philanthropic"
+            android:parentActivityName=".PinLong_Orphanage" >
+        </activity>
+        <activity
+            android:name=".Thuekhakaryee"
+            android:label="Philanthropic"
+            android:parentActivityName=".YatSauk_Orphanage" >
+        </activity>
+        <activity
+            android:name=".MaKyineMonn"
+            android:label="Philanthropic"
+            android:parentActivityName=".LinKay_Orphanage" >
+        </activity>
+        <activity
+            android:name=".Lagyinwe"
+            android:label="Philanthropic"
+            android:parentActivityName=".PheKon_Orphanage" >
+        </activity>
+        <activity
+            android:name=".Salin_Orphanage"
+            android:label="Philanthropic"
+            android:parentActivityName=".PheKon_Orphanage" >
+        </activity>
+        <activity
+            android:name=".PyinyarOoYin"
+            android:label="Philanthropic"
+            android:parentActivityName=".AyeTharYar_Orphange">
+        </activity>
+        <activity
+            android:name=".DawGyiDawNge"
+            android:label="Philanthropic"
+            android:parentActivityName=".Orphange" 
+            >
+        </activity>
+        <activity
+            android:name=".TharTana"
+            android:label="Philanthropic"
+            android:parentActivityName=".NyaungShwe_Orphanage">
+        </activity>
+    </application>
+
+</manifest>

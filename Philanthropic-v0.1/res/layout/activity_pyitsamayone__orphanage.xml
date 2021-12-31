@@ -1,0 +1,191 @@
+
+<ScrollView
+     xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView2"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#CCFFCC" 
+    android:fillViewport="true">
+   
+    <LinearLayout
+        android:id="@+id/LinearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin" >
+        
+        <TextView
+            android:id="@+id/txtpyits0"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="ပစာၦမာရံုလူငယ္ဖံြ႔ျဖိဳးေရးပရဟိတေဂဟ"
+            android:textSize="25dp" 
+            android:textColor="#000000"
+            android:layout_gravity="center"/>
+        
+        <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="fill_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/nat"
+        android:layout_marginTop="10dp"
+      />
+        
+
+       
+        <TextView
+            android:id="@+id/txtpyits1"
+            android:layout_width="fill_parent"
+            android:layout_height="110dp"
+            android:layout_marginTop="10dp"
+            android:text="ပစာၦမာရံုလူငယ္ဖံြ႔ျဖိဳးေရးပရဟိတေဂဟာကိုသည္၁၉၆၄ခုႏွစ္တြင္ဆရာေတာ္ဦးပညိႏၵတည္ေထာင္ခဲ့သည္။၁၉၆၄ခုႏွစ္မွစျပီးလွ်င္ေဒၚခင္ျမေဆြသည္ယခုအခ်ိန္ထိဦးစီးေဆာင္ရြက္လ်ွက္ရွိသည္။လူဦးေရစုစုေပါင္း(၁၂၃)ေယာက္ရွိသည္။ေယာက္်ားေလး(၅၃)ေယာက္ႏွင္႔မိန္းကေလး(၇၀)ေယာက္ရွိသည္။" />
+
+      
+         <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+       android:layout_marginLeft="16dp"
+       android:layout_marginRight="16dp"
+        
+         >
+         
+        <TextView
+            android:id="@+id/txtpyits2"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="ပညာသင္ျကားေနသူမ်ား" 
+             android:layout_gravity="center"
+             android:textColor="#000000"
+             android:layout_marginTop="8dp"/>
+        
+         <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+         >
+        <TextView
+            android:id="@+id/txtpyits3"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="မူလတန္း-၆၇ေယာက္\nအလယ္တန္း-၄၆ေယာက္\nအထက္တန္း-၁၀ေယာက္တို႔တြင္န၀မတန္း-၇ေယာက္ႏွင္႔ဒသမတန္း-၃ေယာက္တို႕ကိုပညာသင္ျကားေပးေနသည္။" 
+             android:layout_gravity="center"/>
+        </LinearLayout>
+        </LinearLayout>
+     
+         
+         <TextView
+            android:id="@+id/txtpyits4"
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:textColor="#000000"
+            android:text="လုပ္ရွားမႈပံုရိပ္မ်ား" 
+             />
+         
+   <RelativeLayout 
+android:id="@+id/activity_main"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:paddingBottom="@dimen/activity_vertical_margin"
+android:paddingLeft="@dimen/activity_horizontal_margin"
+android:paddingRight="@dimen/activity_horizontal_margin"
+android:paddingTop="@dimen/activity_vertical_margin"
+>
+
+ 
+
+<android.support.v4.view.ViewPager
+android:id="@+id/viewPager"
+android:layout_width="350dp"
+android:layout_height="200dp"
+android:layout_marginBottom="8dp"/>
+
+ <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sliderdot"
+        android:layout_below="@+id/viewPager"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_marginTop="10dp"
+         >
+</LinearLayout>
+</RelativeLayout>
+       
+        
+        <TextView
+            android:id="@+id/txtpyits6"
+            android:layout_width="298dp"
+            android:layout_height="wrap_content"
+            android:text="လုပ္ငန္းစဥ္မ်ား"
+            android:textSize="20dp" 
+            android:textColor="#000000"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"/>
+
+       
+        <TextView
+            android:id="@+id/txtpyits7"
+            android:layout_width="fill_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="10dp"
+            android:text="လူငယ္ဖံြ႔ေရးေက်ာင္းအေနႏွင္႔ကေလးမ်ား၏အသုံးစရိတ္အတြက္ေက်ာက္စီလုပ္ငန္းႏွင္႔ကား၀ပ္ေရွာ႔လုပ္ငန္းကိုတည္ေထာင္ထားပါသည္။" />
+
+         
+        <TextView
+            android:id="@+id/txtpyits8"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="လိုအပ္ခ်က္မ်ားႏွင္႔လွဴဒါန္းနိုင္ေသာပစၥည္းမ်ား"
+            android:textSize="20dp" 
+            android:textColor="#000000"
+            android:layout_gravity="center"/>
+
+       
+        <TextView
+            android:id="@+id/txtpyits9"
+            android:layout_width="fill_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="10dp"
+            android:text="ကေလးမ်ားအတြက္မီးဖိုခန္းႏွင္႔စားဖိုေဆာင္၊စာပြဲခံု၊စာေရးကိရိယာႏွင္႔အျခားပစၥည္းမ်ားလိုအပ္ပါသည္။" />
+        
+         <TextView
+            android:id="@+id/txtpyits10"
+            android:layout_width="298dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColor="#000000"
+            android:text="ေနရပ္လိပ္စာ-ကေလာျမိဳ႕နယ္၊ေအာင္ပန္းျမိဳ႕၊ေညာင္ပင္ေထာင္ရပ္ကြက္၊ဖုန္း-၀၉၂၅၀၆၂၆၁၁၇"
+            
+           />
+         
+      <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+         >  
+
+    <ImageView
+        android:id="@+id/phone"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginRight="80dp"
+        android:src="@drawable/ph" />
+
+    <ImageView
+        android:id="@+id/message"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginLeft="40dp"
+        android:src="@drawable/text" />
+
+     </LinearLayout>        
+    </LinearLayout>
+</ScrollView>

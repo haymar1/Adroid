@@ -1,0 +1,197 @@
+<ScrollView
+     xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView2"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#CCFFCC" 
+    android:fillViewport="true">
+   
+    <LinearLayout
+        android:id="@+id/LinearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin" >
+        
+        <TextView
+            android:id="@+id/txtma0"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="မက်ိဳင္းမြန္းမိဘမဲ႕ေစာင့္ေရွာက္ေရးေက်ာင္း"
+            android:textSize="25dp" 
+            android:textColor="#000000"
+            android:layout_gravity="center"/>
+        
+        <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="fill_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/makyine"
+        android:layout_marginTop="10dp"
+      />
+        
+
+       
+        <TextView
+            android:id="@+id/txtma1"
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="10dp"
+            android:text="မက်ိဳင္းမြန္းမိဘမဲ႕ေစာင့္ေရွာက္ေရးေက်ာင္းကိုဆရာေတာ္ပဒသညနဘမၺလသည္၁၉၅၀ခုႏွစ္တြင္တည္ေထာင္ခဲ့သည္။ယခုအခ်ိန္တြင္ဆရာေတာ္ကုန္မာဇာလကဦးစီးေဆာင္ရြက္ေနသည္။လူဦးေရစုစုေပါင္း(၁၆၁)ေယာက္ရွိသည္။" />
+
+      
+         <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+       android:layout_marginLeft="16dp"
+       android:layout_marginRight="16dp"
+        
+         >
+         
+        <TextView
+            android:id="@+id/txtma2"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="ပညာသင္ျကားေနသူမ်ား" 
+             android:layout_gravity="center"
+             android:textColor="#000000"
+             android:layout_marginTop="10dp"/>
+        
+         <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+         >
+        <TextView
+            android:id="@+id/txtma3"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="မူျကိဳ-၆ေယာက္\nသူငယ္တန္း-၉ေယာက္\nပထမတန္း-၉ေယာက္\nဒုတိယတန္း-၁၅ေယာက္\nတတိယတန္း-၂၉ေယာက္\nစတုတၳတန္း-၅ေယာက္္္\nပဥၥမတန္း-၁၄ေယာက္\nဆဌမတန္း-၂၂ေယာက္\nသတၱမတန္း-၁၁ေယာက္\nအဌမတန္း-၁၆\nန၀မတန္း-၁၅\nဒသမတန္း-၂ေယာက္ႏွင္႔ဆယ္တန္းေအာင္ျမင္သူ၁ေယာက္တို႕ကိုပညာသင္ျကားေပးေနသည္။" 
+             android:layout_gravity="center"/>
+        </LinearLayout>
+        </LinearLayout>
+     
+         
+         <TextView
+            android:id="@+id/txtma4"
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:textColor="#000000"
+            android:text="လုပ္ရွားမႈပံုရိပ္မ်ား" 
+             />
+         
+     <RelativeLayout 
+android:id="@+id/activity_main"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:paddingBottom="@dimen/activity_vertical_margin"
+android:paddingLeft="@dimen/activity_horizontal_margin"
+android:paddingRight="@dimen/activity_horizontal_margin"
+android:paddingTop="@dimen/activity_vertical_margin"
+>
+
+ 
+
+<android.support.v4.view.ViewPager
+android:id="@+id/viewPager"
+android:layout_width="350dp"
+android:layout_height="200dp"
+android:layout_marginBottom="8dp"/>
+
+ <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sliderdot"
+        android:layout_below="@+id/viewPager"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_marginTop="10dp"
+         >
+</LinearLayout>
+</RelativeLayout>
+        
+       
+        
+        <TextView
+            android:id="@+id/txtma6"
+            android:layout_width="298dp"
+            android:layout_height="wrap_content"
+            android:text="လုပ္ငန္းစဥ္မ်ား"
+            android:textSize="20dp" 
+            android:textColor="#000000"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"/>
+
+       
+        <TextView
+            android:id="@+id/txtma7"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:text="သုံးထပ္စာသင္ေဆာင္တည္ေဆာက္လုပ္လ်က္ရွိသည္။" />
+
+         
+        <TextView
+            android:id="@+id/txtma8"
+            android:layout_width="298dp"
+            android:layout_height="wrap_content"
+            android:text="လိုအပ္ခ်က္မ်ားနွင့္လွဴဒါန္းနိုင္သည့္ပစၥည္းမ်ား"
+            android:textSize="20dp" 
+            android:textColor="#000000"
+            android:layout_gravity="center"/>
+
+       
+        <TextView
+            android:id="@+id/txtma9"
+            android:layout_width="fill_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="10dp"
+            android:text="ကေလးမ်ား၏စား၀တ္ေနးေရးအတြက္စားဖုိမႈး၊စာေရးကရိယာႏွင္႔အျခားပစၥည္းမ်ားလိုအပ္ပါသည္။" />
+        
+         <TextView
+            android:id="@+id/txtma10"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text="ေနရပ္လိပ္စာ-၁၃မိုင္၀တိုက္နယ္၊လင္းေခးျမိဳ႕နယ္၊ဖုန္း-၀၉၂၅၃၁၅၅၀၃၇"
+            
+           />
+         
+      <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+         >  
+
+    <ImageView
+        android:id="@+id/phone"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginRight="80dp"
+        android:src="@drawable/ph" />
+
+    <ImageView
+        android:id="@+id/message"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginLeft="40dp"
+        android:src="@drawable/text" />
+
+     </LinearLayout>       
+    </LinearLayout>
+</ScrollView>
+
+
+
+
+
+
+

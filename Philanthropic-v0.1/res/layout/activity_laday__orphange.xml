@@ -1,0 +1,193 @@
+
+<ScrollView
+     xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView2"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#CCFFCC" 
+    android:fillViewport="true">
+   
+    <LinearLayout
+        android:id="@+id/LinearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin" >
+        
+        <TextView
+            android:id="@+id/txtladay0"
+            android:layout_width="298dp"
+            android:layout_height="wrap_content"
+            android:text="အမ်ိဳးသမီးပရဟိတဖံြ႔ျဖိဳးေရးေဂဟာ"
+            android:textSize="25dp" 
+            android:textColor="#000000"
+            android:layout_gravity="center"/>
+        
+        <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="fill_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/g"
+        android:layout_marginTop="10dp"
+      />
+        
+
+       
+        <TextView
+            android:id="@+id/txtladay1"
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="10dp"
+            android:text="အမ်ိဳးသမီးပရဟိတဖံြ႔ျဖိဳးေရးေဂဟာတြင္လူဦးေရ(၄၈)ေယာက္ရွိျပီးယခုအခ်ိန္တြင္ဆရာေလးတစ္ပါးဦးစီးလ်က္ရွိသည္။ထိုေက်ာင္းတြင္မိန္းကေလးမ်ားသာရွိသည္။" />
+
+      
+         <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+       android:layout_marginLeft="16dp"
+       android:layout_marginRight="16dp"
+        
+         >
+         
+        <TextView
+            android:id="@+id/txtladay2"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="ပညာသင္ျကားေနသူမ်ား" 
+            android:textColor="#000000"
+             android:layout_gravity="center"/>
+        
+         <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="10dp"
+         >
+        <TextView
+            android:id="@+id/txtladay3"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="မူျကို-၁ေယာက္\nပထမတန္း-၄ေယာက္\nဒုတိယတန္း-၂ေယာက္\nတတိယတန္း-၃ေယာက္\nစတုတၳတန္း-၈ေယာက္\nပဥၥမတန္း-၂ေယာက္\nဆဌမတန္း-၅ေယာက္\nသတၱမတန္း-၃ေယာက္\nအဌမတန္း-၁ေယာက္" 
+             android:layout_gravity="center"/>
+        </LinearLayout>
+        </LinearLayout>
+        
+          <TextView
+            android:id="@+id/txtlady11"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:textColor="#000000"
+            android:text="လႈပ္ရွားမႈပံုရိပ္မ်ား" 
+            />
+
+         
+<RelativeLayout 
+android:id="@+id/activity_main"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:paddingBottom="@dimen/activity_vertical_margin"
+android:paddingLeft="@dimen/activity_horizontal_margin"
+android:paddingRight="@dimen/activity_horizontal_margin"
+android:paddingTop="@dimen/activity_vertical_margin"
+>
+
+ 
+
+<android.support.v4.view.ViewPager
+android:id="@+id/viewPager"
+android:layout_width="350dp"
+android:layout_height="200dp"
+android:layout_marginBottom="8dp"/>
+
+ <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sliderdot"
+        android:layout_below="@+id/viewPager"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_marginTop="10dp"
+         >
+</LinearLayout>
+</RelativeLayout>
+        
+       
+        
+        <TextView
+            android:id="@+id/txtladay6"
+            android:layout_width="298dp"
+            android:layout_height="wrap_content"
+            android:text="လုပ္ငန္းစဥ္မ်ား"
+            android:textSize="20dp" 
+            android:textColor="#000000"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"/>
+
+       
+        <TextView
+            android:id="@+id/txtladay7"
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="10dp"
+            android:text="ယခုအခ်ိန္တြင္လုပ္ငန္းစဥ္မ်ားလုပ္ေဆာင္လ်ွက္မရွိေသးပါ။ကေလးမ်ား၏ပညာေရးကိုသာအဓိကထားလုပ္ေဆာင္ေနသည္။" />
+
+         
+        <TextView
+            android:id="@+id/txtladay8"
+            android:layout_width="298dp"
+            android:layout_height="wrap_content"
+            android:text="လိုအပ္ခ်က္မ်ားနွင့္လွဴဒါန္းနိုင္သည့္ပစၥည္းမ်ား"
+            android:textSize="20dp" 
+            android:textColor="#000000"
+            android:layout_gravity="center"/>
+
+       
+        <TextView
+            android:id="@+id/txtladay9"
+            android:layout_width="fill_parent"
+            android:layout_height="90dp"
+            android:layout_marginTop="10dp"
+            android:text="ထီး၊လြယ္အိတ္၊ဆပ္ျပာ၊ေဆး၊အ၀တ္အထည္၊ဆန္၊ဆီ၊ဖိနပ္၊စာေရးကိရိယာ၊တစ္နပ္စာအာဟာရအတြက္အလွဴရွင္မ်ားတက္နိုင္သေလာက္လွဴဒါန္းနိုင္ပါသည္။တစ္ရက္သာအေနႏွင္႔(၁၃၀၀၀)ကုန္က်မည္ျဖစ္သည္။" />
+        
+         <TextView
+            android:id="@+id/txtladay10"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text="ေနရပ္လိပ္စာ-ေတာင္ျကီးျမိဳ႕၊၀ါးျပားေက်ာင္းျကီးစုရပ္၊ဖုန္း-၀၉၂၅၄၁၀၃၆၇၆"
+            android:layout_marginTop="10dp"
+           />
+         
+     <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+         >  
+
+    <ImageView
+        android:id="@+id/phone"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginRight="80dp"
+        android:src="@drawable/ph" />
+
+    <ImageView
+        android:id="@+id/message"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginLeft="40dp"
+        android:src="@drawable/text" />
+
+     </LinearLayout>
+        
+        
+    </LinearLayout>
+   
+
+</ScrollView>
